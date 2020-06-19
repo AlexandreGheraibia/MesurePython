@@ -29,7 +29,7 @@ class MesureRepository:
     def getQuadraticsErrorList(this):
         return np.square(this.getDifferenceErrorList())
 
-#je veux mes les endroits ou mes list divergent selon leurs écrats
+#je veux les endroits où mes listes divergent selon leurs écrats
     def getTimeErrorLetList(this,l,delta):
         res=[]
         for i in range(0,len(l)):
